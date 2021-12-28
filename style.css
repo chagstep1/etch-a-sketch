@@ -1,0 +1,32 @@
+#squares-div {
+	display: grid;
+	grid-template-columns: repeat(16, 1fr);
+	grid-template-rows: repeat(16, 1fr);
+	height: 550px;
+	width: 550px;
+	border: 1px solid black;
+}
+
+.header {
+	width: 550px;
+	text-align: center;
+}
+
+h1 {
+	margin-bottom: 16px;
+}
+
+#new-grid-button {
+	margin-bottom: 16px;
+}
+
+.square {
+	margin: 0;
+	border: 1px solid grey;
+	transition: 1s ease-out;
+}
+
+.hovered {
+	background-color: black;
+	transition: none;
+}
